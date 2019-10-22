@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Election 2019</title>
+</head>
+<body>
+{% csrf_token %}
+<h1><span class="label-input100">You have Successfully voted!!</span></h1>
+<form action="Result" method="get">
+    <div class="container-login100-form-btn">
+        <input type="submit" class="login100-form-btn" value="Result">
+    </div>
+</form>
+
+</body>
+</html>
